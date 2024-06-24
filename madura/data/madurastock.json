@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name" :"evian water",
+            "desc" : "air putih evian",
+            "price":10000,
+            "stok": 10
+        }
+    ]
+}

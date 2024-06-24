@@ -1,0 +1,44 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Paracetamol",
+        "description": "Paracetamol digunakan untuk meredakan demam dan nyeri ringan hingga sedang.",
+        "price": 2000,
+        "manufacturer": "Kalbe Farma",
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "name": "Amoxicillin",
+        "description": "Amoxicillin adalah antibiotik yang digunakan untuk mengobati berbagai macam infeksi bakteri.",
+        "price": 3000,
+        "manufacturer": "Sanbe Farma",
+        "stock": 30
+      },
+      {
+        "id": 3,
+        "name": "Ibuprofen",
+        "description": "Ibuprofen digunakan untuk meredakan nyeri seperti sakit kepala, sakit gigi, kram menstruasi, nyeri otot, atau radang sendi.",
+        "price": 2500,
+        "manufacturer": "Kimia Farma",
+        "stock": 40
+      },
+      {
+        "id": 4,
+        "name": "Cetirizine",
+        "description": "Cetirizine digunakan untuk meredakan gejala alergi seperti bersin, gatal, mata berair, atau hidung meler.",
+        "price": 1500,
+        "manufacturer": "Dexa Medica",
+        "stock": 60
+      },
+      {
+        "id": 5,
+        "name": "Metformin",
+        "description": "Metformin digunakan untuk mengontrol kadar gula darah pada penderita diabetes tipe 2.",
+        "price": 5000,
+        "manufacturer": "Novell Pharmaceutical",
+        "stock": 25
+      }
+    ]
+  }
