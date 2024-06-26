@@ -1,7 +1,7 @@
 import {Request , Response , NextFunction } from  "express";
 import data from "../../data/madurastock.json" assert { type: "json"}
 
-const CheckStockById = (
+const ValidateNominal = (
     req: Request,
     res: Response,  
     next: NextFunction
@@ -25,4 +25,4 @@ const CheckStockById = (
         next();
 }
 
-export {CheckStockById};
+export {ValidateNominal};
