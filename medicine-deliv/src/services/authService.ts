@@ -4,6 +4,7 @@ import { Prisma } from "../models/prisma.ts";
 export interface User {
   email: string;
   password: string;
+  image?: string;
 }
 
 export const register = async (auth: User) => {
@@ -12,6 +13,7 @@ export const register = async (auth: User) => {
     data: {
       email: auth.email,
       password: hashedPassword,
+      image: auth.image,
     },
   });
 };

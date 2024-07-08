@@ -11,10 +11,13 @@ export const register = async (req: Request, res: Response) => {
         errors: errors.array(),
       });
     }
+    
+    const image  = req.file?.filename
     const { email, password } = req.body;
     const bodyRequest: authService.User = {
       email: email,
       password: password,
+      image: image,
     };
     await authService.register(bodyRequest);
     res.status(201).send({

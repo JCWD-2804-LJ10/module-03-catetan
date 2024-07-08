@@ -5,9 +5,8 @@ import { authenticateToken } from "../middleware/authMiddleware.ts";
 const router = Router();
 
 router.post(
-  "/snap-transaction",
-  authenticateToken,
-  transactionController.createSnapTransaction
+  "/trans",
+  transactionController.createBankTransaction
 );
 
 export default router;
